@@ -7,12 +7,22 @@ import CriticalReview from './components/CriticalReview/CriticalReview';
 import ResearchProject from './components/ResearchProject/ResearchProject';
 import Reflection from './components/Reflection/Reflection';
 import ScrollProgress from './components/ParallaxLayers/ScrollProgress';
+import FloatingCloud from './components/ParallaxLayers/FloatingCloud';
 
 const App: FC = () => {
   return (
     <ParallaxProvider>
       <ScrollProgress />
       <Navigation />
+
+      {/* Animated SVG clouds floating across the screen */}
+      <FloatingCloud size="large" speed="slow" position="top" delay={0} color="#E8F4F8" />
+      <FloatingCloud size="medium" speed="medium" position="middle" delay={15} color="#B8D8E8" />
+      <FloatingCloud size="small" speed="fast" position="bottom" delay={8} color="#E8F4F8" />
+      <FloatingCloud size="medium" speed="slow" position="top" delay={35} color="#D0E8F0" />
+      <FloatingCloud size="large" speed="medium" position="middle" delay={50} color="#B8D8E8" />
+      <FloatingCloud size="small" speed="fast" position="top" delay={25} color="#E8F4F8" />
+
       <main>
         <Hero />
         <TravelNarrative />

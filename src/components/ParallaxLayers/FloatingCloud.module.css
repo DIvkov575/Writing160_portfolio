@@ -1,0 +1,83 @@
+.cloudContainer {
+  position: fixed;
+  pointer-events: none;
+  z-index: 5;
+  opacity: 0;
+  animation: floatAcross 60s linear infinite;
+}
+
+.cloudContainer.fast {
+  animation-duration: 40s;
+}
+
+.cloudContainer.slow {
+  animation-duration: 80s;
+}
+
+.cloudSvg {
+  width: 200px;
+  height: auto;
+  filter: drop-shadow(0 4px 20px rgba(184, 216, 232, 0.3));
+  animation: bobbing 8s ease-in-out infinite;
+}
+
+.cloudSvg.small {
+  width: 120px;
+}
+
+.cloudSvg.large {
+  width: 280px;
+}
+
+@keyframes floatAcross {
+  0% {
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+  5% {
+    opacity: 0.6;
+  }
+  95% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateX(calc(100vw + 300px));
+    opacity: 0;
+  }
+}
+
+@keyframes bobbing {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Different starting positions */
+.top {
+  top: 10%;
+}
+
+.middle {
+  top: 40%;
+}
+
+.bottom {
+  top: 70%;
+}
+
+@media (max-width: 768px) {
+  .cloudSvg {
+    width: 150px;
+  }
+
+  .cloudSvg.small {
+    width: 100px;
+  }
+
+  .cloudSvg.large {
+    width: 200px;
+  }
+}
