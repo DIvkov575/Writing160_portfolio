@@ -7,7 +7,7 @@ export const projects: Project[] = [
     description:
       'Statement about piece and changes I made will be added here.',
     technologies: ['Final Draft'],
-    year: '2024',
+    year: '2025',
   },
   {
     id: '2',
@@ -15,7 +15,7 @@ export const projects: Project[] = [
     description:
       'Links to written script required; recorded podcast optional. Statement about piece and changes I made will be added here.',
     technologies: ['Final Draft', 'Script', 'Audio (Optional)'],
-    year: '2024',
+    year: '2025',
   },
   {
     id: '3',
@@ -23,7 +23,7 @@ export const projects: Project[] = [
     description:
       'Includes annotated bibliography AND multimodal piece. Statement about piece and changes I made will be added here.',
     technologies: ['Final Draft', 'Bibliography', 'Multimodal'],
-    year: '2024',
+    year: '2025',
   },
   {
     id: '4',
@@ -31,6 +31,6 @@ export const projects: Project[] = [
     description:
       'Final reflection on my Writing 160 journey and growth as a writer and traveller.',
     technologies: ['Reflection'],
-    year: '2024',
+    year: '2025',
   },
 ];
