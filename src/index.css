@@ -1,0 +1,131 @@
+:root {
+  /* Cloud/Travel Color Palette */
+  --sky-blue-light: #E8F4F8;
+  --sky-blue: #B8D8E8;
+  --sky-blue-medium: #7AB8D8;
+  --sky-blue-deep: #4A90B8;
+
+  --cloud-white: #FFFFFF;
+  --cloud-off-white: #F8FAFB;
+  --cloud-gray-light: #E5E9EB;
+  --cloud-gray: #C8D0D4;
+
+  --text-primary: #2C3E50;
+  --text-secondary: #5A6C7D;
+  --text-light: #8A9BA8;
+
+  /* Typography */
+  --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 8rem;
+
+  /* Effects */
+  --blur-light: 20px;
+  --blur-medium: 40px;
+  --shadow-soft: 0 10px 40px rgba(74, 144, 184, 0.1);
+  --shadow-medium: 0 20px 60px rgba(74, 144, 184, 0.15);
+
+  /* Transitions */
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: linear-gradient(
+    to bottom,
+    var(--sky-blue-light) 0%,
+    var(--cloud-white) 30%,
+    var(--cloud-off-white) 70%,
+    var(--sky-blue-light) 100%
+  );
+  background-attachment: fixed;
+  color: var(--text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+::selection {
+  background: var(--sky-blue-medium);
+  color: var(--cloud-white);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cloud-off-white);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--sky-blue-medium);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--sky-blue-deep);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p {
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* Utility classes */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --spacing-lg: 2rem;
+    --spacing-xl: 4rem;
+  }
+
+  .container {
+    padding: 0 var(--spacing-sm);
+  }
+}
