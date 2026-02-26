@@ -50,12 +50,12 @@ const Hero: FC = () => {
       {/* Main Content */}
       <div className={styles.content}>
         <FloatingText speed={-3} delay={100}>
-          <h1 className={styles.title}>Cloud Explorer</h1>
+          <h1 className={styles.title}>Dmitriy Ivkov</h1>
         </FloatingText>
 
         <FloatingText speed={-1} delay={300}>
           <p className={styles.subtitle}>
-            Drifting through digital skies, building beautiful experiences
+            Hi, welcome to my portfolio. I'm Dmitriy, a math and computer science student at the University of Michigan—currently enrolled in Writing 160 (Travel) class. I'm building this portfolio to showcase some of my work from Writing 160, and maybe my programming projects once I complete the semester. I took 160 because I thought that I'd enjoy the small format and because I wanted to become a more mindful traveller.
           </p>
         </FloatingText>
 

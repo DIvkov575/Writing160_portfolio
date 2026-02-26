@@ -3,34 +3,34 @@ import { Project } from '../types';
 export const projects: Project[] = [
   {
     id: '1',
-    title: 'Sky Navigation',
+    title: 'Travel Literacy Narrative Essay',
     description:
-      'A comprehensive exploration of modern cloud architecture patterns and distributed systems. Built with scalability and performance in mind, focusing on seamless integration across platforms and delivering reliable experiences at scale.',
-    technologies: ['React', 'TypeScript', 'Node.js', 'AWS', 'Docker'],
+      'Statement about piece and changes I made will be added here.',
+    technologies: ['Final Draft'],
     year: '2024',
   },
   {
     id: '2',
-    title: 'Altitude Framework',
+    title: 'Critical Review Podcast',
     description:
-      'Lightweight framework for building responsive, accessible web applications with minimal configuration. Emphasizes clean code architecture and exceptional developer experience while maintaining high performance standards.',
-    technologies: ['Vue', 'TypeScript', 'Tailwind', 'Vite'],
+      'Links to written script required; recorded podcast optional. Statement about piece and changes I made will be added here.',
+    technologies: ['Final Draft', 'Script', 'Audio (Optional)'],
     year: '2024',
   },
   {
     id: '3',
-    title: 'Horizon Dashboard',
+    title: 'Research Project',
     description:
-      'Real-time analytics platform featuring beautiful data visualizations and intuitive interfaces. Provides actionable insights through smooth user interactions and thoughtfully designed information architecture.',
-    technologies: ['Next.js', 'D3.js', 'PostgreSQL', 'GraphQL'],
-    year: '2023',
+      'Includes annotated bibliography AND multimodal piece. Statement about piece and changes I made will be added here.',
+    technologies: ['Final Draft', 'Bibliography', 'Multimodal'],
+    year: '2024',
   },
   {
     id: '4',
-    title: 'Drift Protocol',
+    title: 'Reflection',
     description:
-      'Open-source communication protocol enabling seamless data exchange between distributed systems. Focused on reliability, security, and ease of implementation across various platforms and programming languages.',
-    technologies: ['Go', 'gRPC', 'Docker', 'Kubernetes'],
-    year: '2023',
+      'Final reflection on my Writing 160 journey and growth as a writer and traveller.',
+    technologies: ['Reflection'],
+    year: '2024',
   },
 ];

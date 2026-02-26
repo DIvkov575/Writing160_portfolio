@@ -30,7 +30,7 @@ const Projects: FC = () => {
 
       <div className={styles.container}>
         <Parallax speed={-2} opacity={[0, 1]}>
-          <h2 className={styles.sectionTitle}>Projects</h2>
+          <h2 className={styles.sectionTitle}>Writing Portfolio</h2>
         </Parallax>
 
         <Parallax speed={-1} opacity={[0, 1]}>

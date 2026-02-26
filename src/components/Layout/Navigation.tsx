@@ -25,14 +25,14 @@ const Navigation: FC = () => {
     <nav className={`${styles.nav} ${isScrolled ? styles.scrolled : ''}`}>
       <div className={styles.container}>
         <div className={styles.logo} onClick={scrollToTop}>
-          Cloud
+          DI
         </div>
         <ul className={styles.links}>
           <li className={styles.link} onClick={scrollToTop}>
             Home
           </li>
           <li className={styles.link} onClick={() => scrollToSection('projects')}>
-            Projects
+            Writing
           </li>
         </ul>
       </div>
