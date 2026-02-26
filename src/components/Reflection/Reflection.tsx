@@ -79,7 +79,7 @@ const Reflection: FC = () => {
             style={{ transitionDelay: '0.2s' }}
           >
             <p className={styles.subtitle}>
-              Looking back on my Writing 160 journey
+              Looking back on writing 160...
             </p>
           </div>
         </Parallax>
@@ -90,10 +90,8 @@ const Reflection: FC = () => {
             style={{ transitionDelay: '0.4s' }}
           >
             <div className={styles.content}>
-              <p>Reflection content will be added here.</p>
               <p>
-                This is where I'll reflect on my growth as a writer and
-                traveller throughout this semester.
+                Reflection content will be added here.
               </p>
             </div>
           </div>

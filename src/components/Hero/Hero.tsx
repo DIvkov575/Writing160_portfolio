@@ -55,11 +55,23 @@ const Hero: FC = () => {
 
         <FloatingText speed={-1} delay={300}>
           <p className={styles.subtitle}>
-            Hi, welcome to my portfolio. I'm Dmitriy, a math and computer science student at the University of Michigan—currently enrolled in Writing 160 (Travel) class. I'm building this portfolio to showcase some of my work from Writing 160, and maybe my programming projects once I complete the semester. I took 160 because I thought that I'd enjoy the small format and because I wanted to become a more mindful traveller.
+            Hi, welcome to my portfolio. I'm Dmitriy, a math and computer science student at the University of Michigan—currently enrolled in Writing 160 (Travel) class.
           </p>
         </FloatingText>
 
-        <FloatingText speed={2} delay={500}>
+        <FloatingText speed={0} delay={400}>
+          <p className={styles.subtitle}>
+            I'm building this portfolio to showcase some of my work from Writing 160, and maybe my programming projects once I complete the semester.
+          </p>
+        </FloatingText>
+
+        <FloatingText speed={1} delay={500}>
+          <p className={styles.subtitle}>
+            I took 160 because I thought that I'd enjoy the small format and because I wanted to become a more mindful traveller.
+          </p>
+        </FloatingText>
+
+        <FloatingText speed={2} delay={600}>
           <div className={styles.scrollIndicator} onClick={scrollToProjects}>
             <span>↓</span>
           </div>

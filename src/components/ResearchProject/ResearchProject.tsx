@@ -78,8 +78,8 @@ const ResearchProject: FC = () => {
             style={{ transitionDelay: '0.4s' }}
           >
             <div className={styles.content}>
-              <p>Statement about piece will be added here.</p>
-              <p>Changes I made will be documented here.</p>
+              <p>Statement about piece.</p>
+              <p>Changes I made.</p>
             </div>
           </div>
         </Parallax>

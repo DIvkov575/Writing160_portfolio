@@ -60,7 +60,9 @@ const CriticalReview: FC = () => {
             className={`${styles.fadeIn} ${isVisible ? styles.visible : ''}`}
             style={{ transitionDelay: '0.2s' }}
           >
-            <p className={styles.subtitle}>Final Draft</p>
+            <p className={styles.subtitle}>
+              Links to written script required; recorded podcast optional
+            </p>
           </div>
         </Parallax>
 
@@ -71,9 +73,10 @@ const CriticalReview: FC = () => {
           >
             <div className={styles.content}>
               <p>
-                Links to written script required; recorded podcast optional.
+                My groupmates and I recorded a podcast discussing the negative
+                impacts of social media on travel: particularly the misrepresentation
+                and commercialization of travel by various instagram accounts.
               </p>
-              <p>Statement about piece will be added here.</p>
               <p>Changes I made will be documented here.</p>
             </div>
           </div>

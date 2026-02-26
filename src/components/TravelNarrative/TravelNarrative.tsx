@@ -60,7 +60,10 @@ const TravelNarrative: FC = () => {
             className={`${styles.fadeIn} ${isVisible ? styles.visible : ''}`}
             style={{ transitionDelay: '0.2s' }}
           >
-            <p className={styles.subtitle}>Final Draft</p>
+            <p className={styles.subtitle}>
+              An outline of my time travelling during a Europe trip with some of my
+              friends.
+            </p>
           </div>
         </Parallax>
 
@@ -70,8 +73,17 @@ const TravelNarrative: FC = () => {
             style={{ transitionDelay: '0.4s' }}
           >
             <div className={styles.content}>
-              <p>Statement about piece will be added here.</p>
-              <p>Changes I made will be documented here.</p>
+              <p>
+                I recall my time in Paris, Pamplona, and Barcelona as well as some
+                of the mishaps that happened along the way.
+              </p>
+              <p>
+                Some of the revisions I made to my final draft include: reordering
+                of paragraphs to create a natural chronological flow which improves
+                idea development, replacing unnecessarily granular details with
+                higher level ideas to better support the thesis, and diversified
+                word choice to improve engagement.
+              </p>
             </div>
           </div>
         </Parallax>
