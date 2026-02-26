@@ -31,8 +31,17 @@ const Navigation: FC = () => {
           <li className={styles.link} onClick={scrollToTop}>
             Home
           </li>
-          <li className={styles.link} onClick={() => scrollToSection('projects')}>
-            Writing
+          <li className={styles.link} onClick={() => scrollToSection('travel-narrative')}>
+            Narrative
+          </li>
+          <li className={styles.link} onClick={() => scrollToSection('critical-review')}>
+            Podcast
+          </li>
+          <li className={styles.link} onClick={() => scrollToSection('research-project')}>
+            Research
+          </li>
+          <li className={styles.link} onClick={() => scrollToSection('reflection')}>
+            Reflection
           </li>
         </ul>
       </div>

@@ -2,7 +2,10 @@ import { FC } from 'react';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Navigation from './components/Layout/Navigation';
 import Hero from './components/Hero/Hero';
-import Projects from './components/Projects/Projects';
+import TravelNarrative from './components/TravelNarrative/TravelNarrative';
+import CriticalReview from './components/CriticalReview/CriticalReview';
+import ResearchProject from './components/ResearchProject/ResearchProject';
+import Reflection from './components/Reflection/Reflection';
 import ScrollProgress from './components/ParallaxLayers/ScrollProgress';
 
 const App: FC = () => {
@@ -12,7 +15,10 @@ const App: FC = () => {
       <Navigation />
       <main>
         <Hero />
-        <Projects />
+        <TravelNarrative />
+        <CriticalReview />
+        <ResearchProject />
+        <Reflection />
       </main>
     </ParallaxProvider>
   );

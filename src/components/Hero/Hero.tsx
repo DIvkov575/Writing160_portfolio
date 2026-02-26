@@ -5,9 +5,9 @@ import styles from './Hero.module.css';
 
 const Hero: FC = () => {
   const scrollToProjects = () => {
-    const projectsSection = document.getElementById('projects');
-    if (projectsSection) {
-      projectsSection.scrollIntoView({ behavior: 'smooth' });
+    const firstSection = document.getElementById('travel-narrative');
+    if (firstSection) {
+      firstSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
