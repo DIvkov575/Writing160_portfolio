@@ -11,7 +11,6 @@ const FloatingText: FC<FloatingTextProps> = ({
   return (
     <Parallax
       speed={speed}
-      opacity={[0, 1]}
       style={{
         animationDelay: `${delay}ms`,
       }}

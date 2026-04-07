@@ -53,6 +53,26 @@
   font-size: 0.9rem;
 }
 
+.pdfLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background: rgba(122, 184, 216, 0.15);
+  color: var(--sky-blue-deep);
+  border: 1px solid rgba(122, 184, 216, 0.4);
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.pdfLink:hover {
+  background: rgba(122, 184, 216, 0.3);
+  border-color: rgba(122, 184, 216, 0.7);
+}
+
 .fadeIn {
   opacity: 0;
   transform: translateY(40px);

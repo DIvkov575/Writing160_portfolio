@@ -103,7 +103,7 @@ const Reflection: FC = () => {
             style={{ transitionDelay: '0.6s' }}
           >
             <div className={styles.metadata}>
-              <span className={styles.tag}>2025</span>
+              <span className={styles.tag}>2026</span>
             </div>
           </div>
         </Parallax>

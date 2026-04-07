@@ -51,7 +51,7 @@ const CriticalReview: FC = () => {
       <div className={styles.container}>
         <Parallax speed={-4}>
           <div className={`${styles.fadeIn} ${isVisible ? styles.visible : ''}`}>
-            <h2 className={styles.title}>Critical Review Podcast</h2>
+            <h2 className={styles.title}>Reel Travel Podcast</h2>
           </div>
         </Parallax>
 
@@ -61,7 +61,7 @@ const CriticalReview: FC = () => {
             style={{ transitionDelay: '0.2s' }}
           >
             <p className={styles.subtitle}>
-              Links to written script required; recorded podcast optional
+              A critical review of travel content on Instagram — written script and recorded podcast
             </p>
           </div>
         </Parallax>
@@ -73,11 +73,15 @@ const CriticalReview: FC = () => {
           >
             <div className={styles.content}>
               <p>
-                My groupmates and I recorded a podcast discussing the negative
-                impacts of social media on travel: particularly the misrepresentation
-                and commercialization of travel by various instagram accounts.
+                With Chase, Brennan, Jacob, and Sean, I co-hosted "Reel Travel" — a podcast
+                critically examining five Instagram travel accounts, including @traveler (2.9M followers),
+                Helene in Between, Caiden Jackson, Travel and Leisure, and @worldgeoo.
               </p>
-              <p>Changes I made will be documented here.</p>
+              <p>
+                We analyzed how these creators use aesthetics, monetization, and selective
+                framing to shape audience expectations — often contributing to overtourism and
+                a distorted picture of what travel actually looks like.
+              </p>
             </div>
           </div>
         </Parallax>
@@ -88,7 +92,15 @@ const CriticalReview: FC = () => {
             style={{ transitionDelay: '0.6s' }}
           >
             <div className={styles.metadata}>
-              <span className={styles.tag}>2025</span>
+              <span className={styles.tag}>Mar 2026</span>
+              <a
+                href="/reel-travel-podcast.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.pdfLink}
+              >
+                ↗ View Script
+              </a>
             </div>
           </div>
         </Parallax>

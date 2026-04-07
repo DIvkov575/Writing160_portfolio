@@ -51,7 +51,7 @@ const TravelNarrative: FC = () => {
       <div className={styles.container}>
         <Parallax speed={-5}>
           <div className={`${styles.fadeIn} ${isVisible ? styles.visible : ''}`}>
-            <h2 className={styles.title}>Travel Literacy Narrative Essay</h2>
+            <h2 className={styles.title}>Travel Literacy Narrative</h2>
           </div>
         </Parallax>
 
@@ -61,8 +61,8 @@ const TravelNarrative: FC = () => {
             style={{ transitionDelay: '0.2s' }}
           >
             <p className={styles.subtitle}>
-              An outline of my time travelling during a Europe trip with some of my
-              friends.
+              A personal narrative about traveling through Europe — Paris, Pamplona,
+              Barcelona, and Madrid — and learning to let go of control.
             </p>
           </div>
         </Parallax>
@@ -74,15 +74,17 @@ const TravelNarrative: FC = () => {
           >
             <div className={styles.content}>
               <p>
-                I recall my time in Paris, Pamplona, and Barcelona as well as some
-                of the mishaps that happened along the way.
+                A lifelong over-planner, I found myself on a friend-group trip through
+                Europe where spontaneity ruled. From sleeping on the floor of Pamplona's
+                starting plaza during San Fermín, to stumbling into the Museo del Prado
+                after a storm stranded us in unplanned Madrid, the best moments came
+                from mishaps — not the itinerary.
               </p>
               <p>
-                Some of the revisions I made to my final draft include: reordering
-                of paragraphs to create a natural chronological flow which improves
-                idea development, replacing unnecessarily granular details with
-                higher level ideas to better support the thesis, and diversified
-                word choice to improve engagement.
+                Revisions to the final draft focused on reordering paragraphs for
+                chronological clarity, replacing overly granular detail with higher-level
+                reflection to better support the central thesis, and varying sentence
+                structure to improve engagement.
               </p>
             </div>
           </div>
@@ -94,7 +96,15 @@ const TravelNarrative: FC = () => {
             style={{ transitionDelay: '0.6s' }}
           >
             <div className={styles.metadata}>
-              <span className={styles.tag}>2025</span>
+              <span className={styles.tag}>Feb 2026</span>
+              <a
+                href="/travel-narrative.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.pdfLink}
+              >
+                ↗ View Essay
+              </a>
             </div>
           </div>
         </Parallax>
