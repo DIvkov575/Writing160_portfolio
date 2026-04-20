@@ -21,10 +21,8 @@ const FloatingCloud: FC<FloatingCloudProps> = ({
   const positionClass = styles[position];
 
   return (
-    <div
-      className={`${styles.cloudContainer} ${speedClass} ${positionClass}`}
-      style={{ animationDelay: `${delay}s` }}
-    >
+    <div className={`${styles.cloudContainer} ${speedClass} ${positionClass}`}>
+      <div className={styles.mover} style={{ animationDelay: `${delay}s` }}>
       <svg
         className={`${styles.cloudSvg} ${sizeClass}`}
         viewBox="0 0 500 300"
@@ -52,6 +50,7 @@ const FloatingCloud: FC<FloatingCloudProps> = ({
         {/* Soft glow effect */}
         <ellipse cx="250" cy="180" rx="180" ry="100" fill="white" opacity="0.3" />
       </svg>
+      </div>
     </div>
   );
 };

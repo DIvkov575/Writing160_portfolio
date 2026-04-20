@@ -12,11 +12,7 @@ import FloatingAirplane from './components/ParallaxLayers/FloatingAirplane';
 
 const App: FC = () => {
   return (
-    <ParallaxProvider>
-      <ScrollProgress />
-      <Navigation />
-
-      {/* Animated SVG clouds floating across the screen */}
+    <>
       <FloatingCloud size="large" speed="slow" position="top" delay={0} color="#E8F4F8" />
       <FloatingCloud size="medium" speed="medium" position="middle" delay={15} color="#B8D8E8" />
       <FloatingCloud size="small" speed="fast" position="bottom" delay={8} color="#E8F4F8" />
@@ -24,7 +20,13 @@ const App: FC = () => {
       <FloatingCloud size="large" speed="medium" position="middle" delay={50} color="#B8D8E8" />
       <FloatingCloud size="small" speed="fast" position="top" delay={25} color="#E8F4F8" />
       <FloatingAirplane size="medium" speed="slow" position="top" delay={10} />
-      <FloatingAirplane size="small" speed="medium" position="middle" delay={60} />
+      <FloatingAirplane size="small" speed="fast" position="middle" delay={40} />
+      <FloatingAirplane size="medium" speed="medium" position="bottom" delay={70} />
+      <FloatingAirplane size="large" speed="slow" position="middle" delay={110} />
+
+      <ParallaxProvider>
+      <ScrollProgress />
+      <Navigation />
 
       <main>
         <Hero />
@@ -34,6 +36,7 @@ const App: FC = () => {
         <Reflection />
       </main>
     </ParallaxProvider>
+    </>
   );
 };
 

@@ -1,17 +1,21 @@
 .cloudContainer {
   position: fixed;
+  left: 0;
   pointer-events: none;
   z-index: 5;
-  opacity: 0;
-  animation: floatAcross 60s linear infinite;
 }
 
-.cloudContainer.fast {
+.cloudContainer.fast .mover {
   animation-duration: 40s;
 }
 
-.cloudContainer.slow {
+.cloudContainer.slow .mover {
   animation-duration: 80s;
+}
+
+.mover {
+  animation: floatAcross 60s linear infinite;
+  opacity: 0;
 }
 
 .cloudSvg {
@@ -47,37 +51,16 @@
 }
 
 @keyframes bobbing {
-  0%, 100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-20px); }
 }
 
-/* Different starting positions */
-.top {
-  top: 10%;
-}
-
-.middle {
-  top: 40%;
-}
-
-.bottom {
-  top: 70%;
-}
+.top    { top: 10%; }
+.middle { top: 40%; }
+.bottom { top: 70%; }
 
 @media (max-width: 768px) {
-  .cloudSvg {
-    width: 150px;
-  }
-
-  .cloudSvg.small {
-    width: 100px;
-  }
-
-  .cloudSvg.large {
-    width: 200px;
-  }
+  .cloudSvg       { width: 150px; }
+  .cloudSvg.small { width: 100px; }
+  .cloudSvg.large { width: 200px; }
 }

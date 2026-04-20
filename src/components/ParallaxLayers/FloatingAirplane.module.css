@@ -1,0 +1,49 @@
+.airplaneContainer {
+  position: fixed;
+  left: 0;
+  pointer-events: none;
+  z-index: 6;
+}
+
+.airplaneContainer.fast .mover {
+  animation-duration: 55s;
+}
+
+.airplaneContainer.slow .mover {
+  animation-duration: 130s;
+}
+
+.mover {
+  animation: flyAcross 90s linear infinite;
+  opacity: 0;
+}
+
+.airplaneSvg {
+  width: 180px;
+  height: auto;
+  filter: drop-shadow(0 2px 10px rgba(184, 216, 232, 0.35));
+}
+
+.small .airplaneSvg { width: 110px; }
+.large .airplaneSvg { width: 250px; }
+
+@keyframes flyAcross {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  4% {
+    opacity: 0.7;
+  }
+  96% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateX(calc(100vw + 200px));
+    opacity: 0;
+  }
+}
+
+.top    { top: 8%;  }
+.middle { top: 35%; }
+.bottom { top: 65%; }
