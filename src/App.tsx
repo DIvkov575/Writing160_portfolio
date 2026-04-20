@@ -8,6 +8,7 @@ import ResearchProject from './components/ResearchProject/ResearchProject';
 import Reflection from './components/Reflection/Reflection';
 import ScrollProgress from './components/ParallaxLayers/ScrollProgress';
 import FloatingCloud from './components/ParallaxLayers/FloatingCloud';
+import FloatingAirplane from './components/ParallaxLayers/FloatingAirplane';
 
 const App: FC = () => {
   return (
@@ -22,6 +23,8 @@ const App: FC = () => {
       <FloatingCloud size="medium" speed="slow" position="top" delay={35} color="#D0E8F0" />
       <FloatingCloud size="large" speed="medium" position="middle" delay={50} color="#B8D8E8" />
       <FloatingCloud size="small" speed="fast" position="top" delay={25} color="#E8F4F8" />
+      <FloatingAirplane size="medium" speed="slow" position="top" delay={10} />
+      <FloatingAirplane size="small" speed="medium" position="middle" delay={60} />
 
       <main>
         <Hero />
