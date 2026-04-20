@@ -61,7 +61,7 @@ const CriticalReview: FC = () => {
             style={{ transitionDelay: '0.2s' }}
           >
             <p className={styles.subtitle}>
-              A critical review of travel content on Instagram — written script and recorded podcast
+              A critical review of travel content on Instagram: written script and recorded podcast
             </p>
           </div>
         </Parallax>
@@ -73,13 +73,13 @@ const CriticalReview: FC = () => {
           >
             <div className={styles.content}>
               <p>
-                With Chase, Brennan, Jacob, and Sean, I co-hosted "Reel Travel" — a podcast
+                With Chase, Brennan, Jacob, and Sean, I co-hosted "Reel Travel," a podcast
                 critically examining five Instagram travel accounts, including @traveler (2.9M followers),
                 Helene in Between, Caiden Jackson, Travel and Leisure, and @worldgeoo.
               </p>
               <p>
                 We analyzed how these creators use aesthetics, monetization, and selective
-                framing to shape audience expectations — often contributing to overtourism and
+                framing to shape audience expectations, often contributing to overtourism and
                 a distorted picture of what travel actually looks like.
               </p>
             </div>

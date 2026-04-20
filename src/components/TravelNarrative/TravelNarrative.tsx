@@ -61,8 +61,8 @@ const TravelNarrative: FC = () => {
             style={{ transitionDelay: '0.2s' }}
           >
             <p className={styles.subtitle}>
-              A personal narrative about traveling through Europe — Paris, Pamplona,
-              Barcelona, and Madrid — and learning to let go of control.
+              A personal narrative about traveling through Europe (Paris, Pamplona,
+              Barcelona, and Madrid) and learning to let go of control.
             </p>
           </div>
         </Parallax>
@@ -78,7 +78,7 @@ const TravelNarrative: FC = () => {
                 Europe where spontaneity ruled. From sleeping on the floor of Pamplona's
                 starting plaza during San Fermín, to stumbling into the Museo del Prado
                 after a storm stranded us in unplanned Madrid, the best moments came
-                from mishaps — not the itinerary.
+                from mishaps, not the itinerary.
               </p>
               <p>
                 Revisions to the final draft focused on reordering paragraphs for

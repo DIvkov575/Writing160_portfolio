@@ -55,7 +55,7 @@ const Hero: FC = () => {
 
         <FloatingText speed={-1} delay={300}>
           <p className={styles.subtitle}>
-            Hi, welcome to my portfolio. I'm Dmitriy, a math and computer science student at the University of Michigan—currently enrolled in Writing 160 (Travel) class.
+            Hi, welcome to my portfolio. I'm Dmitriy, a math and computer science student at the University of Michigan, currently enrolled in Writing 160 (Travel) class.
           </p>
         </FloatingText>
 

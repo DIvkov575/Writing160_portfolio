@@ -53,6 +53,98 @@
   font-size: 0.9rem;
 }
 
+.thesisBlock {
+  border-left: 3px solid var(--sky-blue-deep);
+  padding: var(--spacing-sm) var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+  background: rgba(122, 184, 216, 0.08);
+  border-radius: 0 8px 8px 0;
+}
+
+.thesisLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sky-blue-deep);
+  display: block;
+  margin-bottom: var(--spacing-xs);
+}
+
+.thesisText {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin: 0;
+  font-style: italic;
+}
+
+.pdfLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background: rgba(122, 184, 216, 0.2);
+  color: var(--sky-blue-deep);
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.pdfLink:hover {
+  background: rgba(122, 184, 216, 0.35);
+}
+
+.bibTitle {
+  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-md);
+}
+
+.bibList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.bibEntry {
+  border-top: 1px solid rgba(122, 184, 216, 0.2);
+  padding-top: var(--spacing-md);
+}
+
+.bibCitation {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-xs);
+  line-height: 1.6;
+}
+
+.bibLink {
+  color: var(--sky-blue-deep);
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+
+.bibLink:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+.bibAnnotation {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin: 0;
+}
+
 .fadeIn {
   opacity: 0;
   transform: translateY(40px);

@@ -1,0 +1,172 @@
+﻿University of Michigan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dying for Tourism
+
+
+How tourism growth in (Atitlan) Guatemala has contributed to measurable environmental decline
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dmitriy Ivkov
+WRITING 160
+Prof. Pippo
+April 2, 2026
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Proposal
+
+
+I want to create an infographic/website  that visualizes the relationship between rising tourist numbers at Lake Atitlán and measurable environmental decline (using statistics like water transparency, oxygen levels, and cyanobacteria outbreaks). I have plans to travel to Guatemala and am curious about the country, so I want to understand the possible environmental pressures on one of its most iconic destinations before I visit. I also want to do a webpage because it has support for rendering interactive statistics and is a good gateway to my target audience, which is something I'm personally interested in. Questions I hope to answer: How have specific water quality metrics changed over the past few decades? Is there a measurable correlation between tourism peaks and pollution spikes? What is projected for the lake's future if current trends continue?
+
+
+Thesis
+Tourism growth at Lake Atitlán, Guatemala has outpaced the region's water treatment infrastructure, driving eutrophication of the lake and destabilizing the lakeshore communities that depend on its resources.
+
+
+Multimodal Piece
+https://160p3.vercel.app/
+
+
+
+
+
+
+
+
+________________
+
+
+1 Hyperspectral Satellite Remote Sensing of Water Quality in Lake Atitlán, Guatemala https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2020.00007/full Flores-Anderson, Africa I., et al. "Hyperspectral Satellite Remote Sensing of Water Quality in Lake Atitlán, Guatemala." Frontiers in Environmental Science, vol. 8, 2020.
+This study evaluates the use of hyperspectral satellite imagery to monitor water quality conditions in Lake Atitlán. The authors analyze spectral data to detect indicators of eutrophication and nutrient concentration across the lake’s surface. Their results suggest that remote sensing techniques can identify spatial patterns of water quality degradation and algal bloom development. The authors strayed outside of convention several times, and the numbers seemed fudged too. They made several hand-wavy claims about how their method seemed to yield unusual results, and they provided a bare minimum of 30% for accuracy. The appearance is suspiciously quantized. Additionally, the study seemed to focus entirely on method rather than results.With over tourism being a very minor factor, only being mentioned once throughout the entire paper. The results that were mentioned seem more of an evaluation of the method rather than the statement about the impact of tourism. Even though "Satellite Remote Sensing" focuses primarily on methodological validation rather than the specific drivers of eutrophication, it provides useful evidence that water quality deterioration in Lake Atitlán can be measured and monitored through satellite data. Despite the concerning figures, the study is published in a peer-reviewed environmental science journal and contributes a valuable technical framework for monitoring ecological change. However, its emphasis on methodological testing and relatively modest classification accuracy suggests that additional empirical studies are necessary to fully quantify tourism’s contribution to water degradation.
+
+
+2 Neher, Timothy P., et al. “Lake Atitlan: A Review of the Food, Energy, and Water Sustainability of a Mountain Lake in Guatemala.” Sustainability, vol. 13, no. 2, 7 Jan. 2021, p. 515, https://doi.org/10.3390/su13020515.
+This article reviews the environmental sustainability challenges affecting Lake Atitlán, focusing on food, energy, and water systems within the lake’s watershed. The authors report that approximately 45,000 cubic meters of sewage are produced daily within the basin, largely due to population growth and development along the lakeshore. SWAT hydrological modeling confirms that phosphorus loading is a key driver of eutrophication, which suggests that there may be, in fact, negative impacts determined by over-torsion. It has been observed that contamination has continued to worsen despite the less good designation as a lake of the world heritage, so in 2002. Recommended tourist taxes to fund wastewater infrastructure acknowledge that tourism is a contributor to the crisis and a potential source for its remedy. These findings support the argument that tourism-driven development contributes to environmental degradation in the region. As tourism increases economic activity and population density around the lake, wastewater production and nutrient runoff also increase, accelerating eutrophication and ecological decline.Nevertheless, the contamination has outpaced any actions taken by the government. The "Late Atitlan" is a peer-reviewed interdisciplinary review published in Sustainability. Its synthesis of environmental and economic data provides strong contextual evidence connecting tourism-related development to the lake’s declining ecological condition.
+
+
+3 Argueta, Christina. MENDING GUATEMALA’S TOURISM INDUSTRY through PRIVATE REGULATION.
+"ENDING GUATEMALA’S TOURISM INDUSTRY through PRIVATE REGULATION" examines governance challenges within Guatemala’s tourism sector and proposes private regulatory mechanisms to improve sustainability outcomes. Argueta points out that tourism generates nearly $1.4 billion annually in Guatemala, a non-trivial percentage of the annual GDP. This economic importance can create incentives that prioritize tourism expansion over environmental protection. As a result, non-government organizations dominate the industry space and are only solely economically driven. This is particularly problematic, provided that these same firms have historically fallen short of any promises they have made relating to environmental conservation. Although the study focuses primarily on regulatory frameworks and economic policy rather than direct environmental measurement, it provides important context for explaining why environmental degradation around Lake Atitlán persists despite extensive documentation of ecological harm. The economic benefits of tourism often outweigh environmental concerns, leading to weak regulatory enforcement, fragmented governance, and limited accountability for impacts such as wastewater discharge, shoreline development, and resource overuse. Argueta ultimately proposes voluntary industry codes of conduct as a potential alternative mechanism for improving sustainability. While the paper does not quantify environmental damage directly, it is useful for situating Lake Atitlán within broader institutional and economic systems that enable tourism-driven environmental degradation to continue.
+
+
+
+
+
+
+
+
+4 Tourism and Territory on the Banks of Lake Atitlán, Guatemala https://www.revistas.una.ac.cr/index.php/geografica/article/download/9430/11202/29988 Sánchez-Crispín, Álvaro, and Enrique Propin-Frejomil. "Tourism and Territory on the Banks of Lake Atitlán, Guatemala." Revista Geográfica, no. 157, 2017, pp. 41–66.
+With fieldwork conducted from 2013 through 2015, it's been found that about 40% of the lake surface is covered in algae. It's a direct consequence of domestic and agricultural wastewater disposal. The study links these blooms to domestic and agricultural wastewater entering the lake, which increases nutrient concentrations such as phosphates and nitrates. These nutrient inputs promote eutrophication and cyanobacteria growth, contributing to declining water quality. This discovery was also found in an earlier paper, but nevertheless this waste disposal is very correlated with, and is likely caused by the growth of the population servicing the tourism economy. Phosphates, nitrates, and cyanobacteria are documented to significantly exceed the natural levels, and this is likely driven by shoreline development and population concentrations in the municipalities which lack adequate wastewater treatment. There has been very little action taken to prevent this environmental deterioration. The authors also note that population growth in shoreline development and lakeside municipalities, many of which lack adequate water treatment, has intensified population pressures.Tourism and Territory on the Banks of Lake Atitlan is particularly relevant to this project because it connects environmental degradation to demographic and economic changes associated with tourism development around the lake. As tourism increases demand for service and infrastructure, local population concentrations increase too and wastewater discharge grows, all of which further degrade the water quality. Tourism and Territory on the Banks of Lake Atitlan is a peer-reviewed geographic study and provides evidence for the argument that tourism-based development contributes to ecological decline at Lake Atitlan.
+
+
+
+
+5 Reviving Guatemala's Treasured Lake Atitlán https://theecologist.org/2014/apr/02/reviving-guatemalas-treasured-lake-atitlan Bevan, Anna-Claire. "Reviving Guatemala's Treasured Lake Atitlán." The Ecologist, 2 Apr. 2014.
+"Reviving Guatemala's Treasured Lake Atitlán " highlights research from the University of Guatemala documenting that 45 years of pollution reduced water transparency from 11 m to 5.5 m and dropped dissolved oxygen from 7 mg/L to 0.3 mg/L. Canonically put, over the last 45 years, the water quality at Lake Atitlán has deteriorated significantly. Additionally, every year 1 million m³ of untreated sewage, or around 100,000 metric tons of litter and 100,000 metric tons of road soil, enters the lake. This pollution is strongly correlated with population growth and tourism expansion, which increase pressure on wastewater infrastructure. The "Reviving Guatemala's Treasured Lake Atitlán "also highlights economic consequences such as declining fish stocks, reduced employment, and rising illness in lakeshore communities. Tourism decline is presented as both a consequence and a reinforcing feedback effect of environmental degradation, as worsening water quality reduces visitation and destabilizes communities whose livelihoods depend on the lake. This reinforces the project’s central argument that tourism growth contributes not only to environmental decline but also to socioeconomic instability through the degraded ecosystem. Although this source is a journalistic article rather than a peer-reviewed study, it compiles research from academic institutions and environmental organizations and provides useful quantitative evidence regarding the long-term environmental decline of Lake Atitlán
+
+
+
+
+
+
+
+
+
+
+X 6 Water Defenders Protect Guatemala's Majestic Lake Atitlán from Mountains of Garbage https://wagingnonviolence.org/2023/03/water-defenders-protect-guatemala-lake-atitlan-from-garbage/ Abbott, Jeff. "Water Defenders Protect Guatemala's Majestic Lake Atitlán from Mountains of Garbage." Waging Nonviolence, 30 Mar. 2023.
+"Water Defenders" examines grassroots environmental activism surrounding pollution in Lake Atitlán. It highlights how increased tourism and population growth have generated significant waste and garbage accumulation around the lake, overwhelming existing waste management systems. Community organizations and environmental groups have responded by organizing cleanup campaigns and advocating for stronger environmental protections. "Water Defenders"  cites several key statistics about the quantity of visitors between 1950 and 2017 Destinations' marketing organizations prioritize growth-focused promotion of increased visitation, structurally enabling tourism. Hits on key points such as "Local authorities prioritize economic benefits over environmental impacts." Existing solutions are "conjunctural, addressing symptoms rather than structural causes." The article contributes to the broader argument that tourism growth can exceed the environmental capacity of a destination. As visitor numbers increase, waste production and environmental pressures grow correspondingly. The piece also discusses how local authorities often prioritize economic benefits from tourism over environmental protection, which can delay meaningful policy responses. Although not peer-reviewed, the source provides valuable qualitative evidence of how environmental degradation is experienced on the ground. It also illustrates how local communities are actively responding to tourism-driven environmental pressures. Overall, the article supports the broader argument that tourism growth contributes to waste accumulation and environmental stress in Lake Atitlán, particularly where infrastructure has not kept pace with development.
+
+
+7 Population, Pollution, Pandemic — the Race to Save Lake Atitlan in Guatemala https://garywockner.medium.com/population-pollution-pandemic-the-race-to-save-lake-atitlan-in-guatemala-61640b7ac321 Wockner, Gary. "Population, Pollution, Pandemic — the Race to Save Lake Atitlan in Guatemala." Medium, 8 Jul. 2020.
+The AMSCLAE, or the Lake Atitlán Sustainability Management Authority, detected fecal coliform in every single water inlet examined around the lake in 2021. High loads of fecal coliform and E. coli were also detected at municipal water pumping sites serving lakeside communities, indicating significant contamination throughout the watershed. In total, 99 pollution sources were identified across the lake’s watershed in 2021, including solid waste dumping sites and untreated wastewater discharge points. Lake Atitlán is identified as Guatemala’s third most important tourist destination, yet it remains heavily polluted with fecal matter, illustrating the tension between the region’s economic reliance on tourism and the environmental pressures generated by increased population density and development. In this way, the article implicitly links tourism’s significance to the contamination affecting the lake.
+
+
+The article effectively highlights and provides sources for much of the environmental damage occurring in Lake Atitlán, Guatemala, while also shedding light on the people and communities impacted by this pollution. Although the article itself is a journalistic piece rather than a peer-reviewed academic study, it references environmental monitoring data from AMSCLAE and other institutional sources. As a result, it provides useful supporting evidence about the scale of pollution affecting the lake and helps illustrate the real-world impacts of environmental degradation in a region heavily dependent on tourism.
+
+
+
+
+8 Overtourism: A Potential Outcome in Contemporary Tourism — Causes, Solutions, and Management Challenges https://link.springer.com/chapter/10.1007/978-3-031-63145-0_10 Dodds, Rachel, and Richard Butler. "Overtourism: A Potential Outcome in Contemporary Tourism — Causes, Solutions, and Management Challenges." Overtourism and the Future of Tourism, Springer, 2024.
+"Overtourism: A Potential Outcome in Contemporary Tourism"  presents a systematic review of research examining the environmental consequences of overtourism, specifically, a synthesized 68-Page Review of Studies on Tourism-Generated Water Pollution. In summary, tourism causes "increased nutrient levels, eutrophication, and loss of biodiversity and disruption of aquatic ecosystems through wastewater discharge and waste accumulation." The chapter draws on numerous case studies and examples, including several Mediterranean tourism destinations where large visitor surges have produced measurable environmental impacts. For example Dodd and Butle cite several statistics, such as 220 million tourists causing an approximately 40% increase in plastic waste over the course of three months. The paper also identifies a self-reinforcement feedback loop and serves to bridge the over-tourism theory with the Lake Atitlan specific evidence by naming a potential mechanism. This framework helps bridge overtourism theory with the Lake Atitlán case by identifying a plausible mechanism linking tourism growth to environmental degradation. As previously mentioned, the source synthesizes a large body of peer-reviewed research and is itself a peer-reviewed academic publication. Because it integrates findings from many studies across different tourism destinations, it provides a strong theoretical foundation for understanding how tourism expansion can contribute to environmental decline in locations such as Lake Atitlán.
+
+
+9 Over-Tourism: A Review and Research Agenda https://onlinelibrary.wiley.com/doi/full/10.1002/joe.70007 Wasudawan, et al. "Over-Tourism: A Review and Research Agenda." Global Business and Organizational Excellence, 2025.
+"Over-Tourism: A Review and Research Agenda.” lists some key statistics regarding general over-tourism and environmental impacts, particularly within water. Wasudawan says some key statistics regarding the environmental impact of intense tourist activity. For example, an uptick in tourism corresponds to a 40% rise in nitrogen and phosphorus concentrations. This nitrogen and phosphorus uptick are key nutrients in terms of algal growth and, in turn, results in a measurable shift from mesotrophic to eutrophic conditions which are directly responsible for the worse  water condition. Seasonal peaks and degraded water quality correspond directly with high tourist numbers, establishing some amount of confidence in a causal relationship. The article also notes that seasonal peaks in tourism frequently correspond with degraded water quality, suggesting a causal relationship between tourist activity and environmental stress.
+
+
+The article uses SVM analysis to predict eutrophication zones with over 90% classification accuracy, in other words confirming a strong pattern between tourism intensity and water degradation. These findings confirm a strong statistical relationship between tourism intensity and water degradation. While the article focuses primarily on coastal and marine tourism destinations, the nutrient loading mechanisms described are analogous to those affecting freshwater systems such as Lake Atitlán. The authors also note that regions with integrated environmental management frameworks demonstrate greater ecological resilience against tourism-induced degradation. As a peer-reviewed academic source, the paper provides reliable quantitative evidence supporting the broader argument that tourism expansion can significantly contribute to water pollution and ecosystem decline.
+
+
+10 Lake Atitlán's Silent Struggle https://storymaps.arcgis.com/stories/fbab8a7448f340cf932aed778839d490 "Lake Atitlán's Silent Struggle." ArcGIS StoryMaps, 2024.
+This interactive report documents environmental challenges affecting Lake Atitlán, particularly those associated with wastewater discharge and inadequate sanitation infrastructure.  According to the report, wastewater in Guatemala entering the lake more than doubled from 600,000 meters annually in 2004 to 1.4 million per year directly following the decade of tourism that saw tourist numbers increase massively. Guatemala received 2,142,398 tourists in 2014, many of whom visited Lake Atitlan, each contributing directly or indirectly to the lake's contamination. A replacement water treatment facility cost $1 million but never exceeded 38% operational efficiency. 75 households in the Salola department had dry latrines with no sewage treatment as of the census. The report also highlights significant infrastructure limitations that exacerbate pollution in the lake. For example, a replacement wastewater treatment facility costing approximately $1 million reportedly never exceeded 38% operational efficiency. In addition, census data indicate that 75 households in the Sololá department relied on dry latrines without sewage treatment, further contributing to wastewater contamination. By compiling these statistics and environmental observations, the report directly links tourism growth and population expansion with increasing environmental pressures on the lake. Although this source is not a traditional peer-reviewed academic article, it synthesizes environmental data in a clear and accessible format and provides useful evidence illustrating how tourism-driven development can contribute to environmental degradation.
+
+
+11 Saving Lake Atitlán https://tellingglobalstories.org/saving-lake-atitlan "Saving Lake Atitlán." Telling Global Stories, 2023.
+The "Saving Lake Atitlán" covers key points like cyanobacteria toxins affecting the liver, kidney, central nervous system, and skin and have been linked to degenerative brain disease. Mentions a study of one fisherman's daily earnings dropping from 75 to 175 or 125-ish quetzales to 40 quetzales following the August 2015 bloom on Lake Atitlan's water waste treatment plant. That cars 45% of the municipality's monthly maintenance cost of the plant is 100,000 quetzales or roughly $30,000, while residents pay only 5 to 10 quetzales monthly in sewage fees. The article also highlights structural challenges related to wastewater management and infrastructure funding. For instance, the municipality’s wastewater treatment plant requires monthly maintenance costs of approximately 100,000 quetzales (around $30,000), while residents pay only 5–10 quetzales per month in sewage fees. This discrepancy creates a structural funding gap that limits the effectiveness of wastewater treatment efforts. Restaurant owners in the region have also reported that tourists refuse to purchase fish due to concerns about contamination, compounding economic losses. Overall, the article provides valuable case studies and narratives illustrating how environmental degradation linked to water pollution can affect both local livelihoods and tourism-dependent economies.
+
+
+12 Jazeera, Al. “The Grandmother Lake: Conservation and Colonialism in Guatemala.” Interactive.aljazeera.com, interactive.aljazeera.com/aje/2021/guatemala-conservation-colonialism/index.html.
+Grandmother Lake covers key points like an estimated 16 native fish which were killed following the introduction of an invasive black bass in 1958. The Atitlan grebe declined from a population of 200 to 1960 to fewer than 100 by 1965 and were extinct by the 1980s. Authorities estimate that sewage flows into the lake at 300 L/s. A proposed 215 million mega collector wastewater project was opposed by over petition signatures from indigenous communities. 21.8% of the indigenous people live in extreme poverty, versus 7.5% for non-indigenous populations, documenting that the environmental burden falls disproportionately on the indigenous. The article also focuses on the social and political dimensions of environmental degradation. A proposed $215 million wastewater megacollector project faced opposition from thousands of indigenous residents who feared displacement and loss of local control over water resources. The report highlights significant socioeconomic disparities in the region, noting that approximately 21.8% of indigenous people live in extreme poverty compared with 7.5% of non-indigenous populations. These disparities illustrate how the environmental burden of pollution and tourism development often falls disproportionately on indigenous communities living around the lake. As a report produced by a well-known international news organization, the article provides credible investigative journalism and offers important insight into the human consequences of environmental decline at Lake Atitlán.
+
+
+
+
+AI statement
+I used Wisprflow for dictation
+I used Anthropic's Claude Code to develop the website.
+I used chatgpt to correct grammar/wording.

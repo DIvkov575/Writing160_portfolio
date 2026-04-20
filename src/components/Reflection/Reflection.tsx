@@ -79,7 +79,7 @@ const Reflection: FC = () => {
             style={{ transitionDelay: '0.2s' }}
           >
             <p className={styles.subtitle}>
-              Looking back on writing 160...
+              Looking back on Writing 160
             </p>
           </div>
         </Parallax>
@@ -91,7 +91,23 @@ const Reflection: FC = () => {
           >
             <div className={styles.content}>
               <p>
-                Reflection content will be added here.
+                The class covered three projects: a travel narrative about a Europe trip, a podcast
+                critically examining Instagram travel accounts, and a research project on tourism's
+                environmental impact at Lake Atitlán, Guatemala.
+              </p>
+              <p>
+                The literacy narrative was the most personal. Writing about the Europe trip made me
+                revisit parts of it I'd glossed over when telling the story out loud. The revision
+                process was useful. I cut a lot of detail that didn't support the point. The podcast
+                was a group project. Analyzing travel accounts on Instagram was interesting and made
+                me think about how much of what makes a destination appealing is constructed.
+              </p>
+              <p>
+                For the research project, I chose Lake Atitlán partly because I'm planning to
+                travel there. Building the website was the most enjoyable part. It let me use some
+                programming skills and present data more interactively than a regular essay would.
+                The multimodal option made the assignment more interesting than it otherwise would
+                have been.
               </p>
             </div>
           </div>
@@ -103,7 +119,7 @@ const Reflection: FC = () => {
             style={{ transitionDelay: '0.6s' }}
           >
             <div className={styles.metadata}>
-              <span className={styles.tag}>2026</span>
+              <span className={styles.tag}>Apr 2026</span>
             </div>
           </div>
         </Parallax>
